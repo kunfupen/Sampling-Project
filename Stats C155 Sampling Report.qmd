@@ -137,64 +137,32 @@ ggplot(data, aes(x = Gender, y = Proportion, fill = Gender)) +
 # Findings
 Based on the collected data, the estimated proportion of male pedestrians on Bruin is 0.51, with a 95% confidence interval ranging from 43.97% to 58.25%. This suggest that the proportion of males pedestrians on Bruin Walk is likely in this range. The finite population correction was applied to improve the accuracy of the variance estimation with a total estimated population on N = 4000 and sample size of n = 180. 
 
+## Strengths
+Using systematic sampling ensured that pedestrians were selected at fixed intervals, thus reducing the risk of over-sampling individuals from specific demographic groups. Additionally, including finite population correction helps reduce the estimated variance, leading to a more precise confidence interval. 
+
 ## Limitations
-Some limitations that must be 
+Some limitations that was encountered during the sampling process was that the study only sampled individuals at a specific time, which may not capture the full demographic diversity of Bruin Walk. Another limitation is that the flow of pedestrian follows a pattern where there are more students on Bruin Walk near the hour because classes typically starts and end on the hour. This means that using systematic sampling might not be truly random. 
 
 
 \begin{figure}[h]
     \centering
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{0.4\textwidth}
         \centering
         \includegraphics[width=\linewidth]{20250313_135033.jpg}
+        \caption{1:05 pm}
     \end{minipage}
     \hfill
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{0.4\textwidth}
         \centering
         \includegraphics[width=\linewidth]{20250313_141411.jpg}
+        \caption{2:14 pm}
     \end{minipage}
 \end{figure}
 
 
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
-        \hline
-        M & M & F & F & F & F & M & F & F & M \\
-        \hline
-        M & F & M & M & F & F & M & M & M & F \\
-        \hline
-        F & F & M & M & M & M & F & F & F & M \\
-        \hline
-        M & F & M & M & F & M & M & F & M & F \\
-        \hline
-        M & F & F & M & M & F & F & F & M & M \\
-        \hline
-        F & M & M & F & M & F & M & F & F & M \\
-        \hline
-        M & F & F & F & M & M & M & F & F & M \\
-        \hline
-        F & M & M & F & M & F & M & M & F & M \\
-        \hline
-        F & F & M & M & F & F & M & M & M & F \\
-        \hline
-        F & F & M & F & M & M & M & F & F & M \\
-        \hline
-        F & F & F & M & F & M & M & F & F & M \\
-        \hline
-        M & F & M & M & F & M & M & M & F & F \\
-        \hline
-        M & F & F & F & M & F & M & M & F & F \\
-        \hline
-        M & M & F & M & M & F & F & F & M & F \\
-        \hline
-        M & F & M & F & M & F & M & M & F & M \\
-        \hline
-        M & F & F & F & F & M & M & M & M & M \\
-        \hline
-    \end{tabular}
-    \caption{Gender Classification of Pedestrians on Bruin Walk}
-    \label{tab:gender_data}
-\end{table}
+\noindent The raw data collected for this study can be downloaded here:  
+\href{https://github.com/kunfupen/Sampling-Project/blob/main/Sampling%20Project%20Data.csv}{Download CSV File}
+
 
 
 
